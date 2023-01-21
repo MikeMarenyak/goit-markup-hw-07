@@ -86,11 +86,12 @@ placeholder {
   border: none;
   color: var(--title-text-color);
   transition: background-color 250ms var(--cubic-active);
+  &:hover,
+  &:focus {
+    background-color: var(--bg-portfolio-accent);
+  }
 }
-.sub-button:hover,
-.sub-button:focus {
-  background-color: var(--bg-portfolio-accent);
-}
+
 .sub-icon {
   margin-left: 10px;
   fill: var(--title-text-color);
